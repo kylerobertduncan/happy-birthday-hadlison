@@ -11,7 +11,7 @@ body {
 }
 
 main {
-  background-image: url("/orbital-blues-header.png");
+  background-image: url("./assets/orbital-blues-header.png");
   background-position: center;
   background-size: cover;
   height: 100%;
@@ -60,7 +60,7 @@ main a img {
 }
 
 .wrapping {
-  background-image: url("/wrapping.png");
+  background-image: url("./assets/wrapping.png");
   background-position: center;
   background-size: cover;
   height: 100%;
@@ -68,7 +68,7 @@ main a img {
 }
 
 .wrapping::before {
-  background-image: url("/texture.jpg");
+  background-image: url("./assets/texture.jpg");
   content: "";
   display: block;
   opacity: 0.5;
