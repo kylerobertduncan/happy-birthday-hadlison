@@ -97,9 +97,13 @@ main a img {
 
 .bow {
   max-height: 200px;
-  opacity: 0.9;
+  /* opacity: 0.9; */
 }
 .bow img {
   max-height: 100%;
   max-width: 100dvw;
+}
+
+.cursorPointer {
+  cursor: pointer;
 }
