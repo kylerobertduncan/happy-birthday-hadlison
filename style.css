@@ -19,9 +19,9 @@ main {
   width: 100%;
 }
 
-h1 {
+h1, a {
   font-size: 3rem;
-  margin: 0.5rem 0;
+  margin: 0.25rem 0;
 }
 
 p {
@@ -33,6 +33,7 @@ p {
 .bubble {
   background-color: rgba(0, 0, 0, 0.25);
   border-radius: 15px;
+  max-width: 450px;
   padding: 10px 15px;
 }
 
@@ -97,7 +98,6 @@ main a img {
 
 .bow {
   max-height: 200px;
-  /* opacity: 0.9; */
 }
 .bow img {
   max-height: 100%;
